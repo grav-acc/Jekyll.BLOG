@@ -27,15 +27,15 @@ navigation:
       url: /contact
 
 social:
-    github: brianmaierjr
-    twitter: brianmaierjr
-    facebook: brianmaierjr
+    # github: brianmaierjr
+    # twitter: brianmaierjr
+    # facebook: brianmaierjr
     email: g@grav.foo
-    linkedin: brianmaierjr
-    youtube: RickAstleyYT
-    tumblr: i-am-a-fish
+    # linkedin: brianmaierjr
+    # youtube: RickAstleyYT
+    # tumblr: i-am-a-fish
 
 google_analytics: "G-WLHCRCNQJT"
 
-disqus:
-    shortname: brian
+# disqus:
+#     shortname: brian
