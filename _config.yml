@@ -19,11 +19,11 @@ plugins: [jekyll-paginate]
 paginate: 5
 
 navigation:
-    - title: 主页
+    - title: 最前页
       url: /index.html
-    - title: 关于我
+    - title: 说明书
       url: /about
-    - title: 联系我
+    - title: 想找我？
       url: /contact
 
 social:
