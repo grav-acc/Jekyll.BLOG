@@ -1,0 +1,41 @@
+title:  Grav
+description: Gravity of Words, Or A Bunch of Bullshit.
+
+url: https://grav.foo/
+# Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
+baseurl: # Ex: /project-page
+paginate_path: "/page:num/"
+permalink: /:title/
+
+# Header Option
+# header: large
+
+sass:
+    style: compressed
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+navigation:
+    - title: Home
+      url: /index.html
+    - title: About
+      url: /about
+    - title: Contact
+      url: /contact
+
+social:
+    github: brianmaierjr
+    twitter: brianmaierjr
+    facebook: brianmaierjr
+    email: g@grav.foo
+    linkedin: brianmaierjr
+    youtube: RickAstleyYT
+    tumblr: i-am-a-fish
+
+google_analytics: "G-WLHCRCNQJT"
+
+disqus:
+    shortname: brian
