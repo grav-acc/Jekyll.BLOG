@@ -1,41 +1,62 @@
+site: 冒号D
+url: grav.foo
 title: 冒号D
 description: Gravity of Words, Or A Bunch of Bullshit.
-
-url: https://grav.foo/
-# Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
-baseurl: # Ex: /project-page
-paginate_path: "/page:num/"
+twitter:
+  username: #yourusername
+  card: summary
+  creator: #yourusername
+author:
+  twitter: #yourusername
+  name: #yourusername
+  avatar:
+  email: #youremail
+  url: #yoururl
 permalink: /:title/
 
-# Header Option
-# header: large
+baseurl: ""
+
+highlighter: none
+
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
 
 sass:
-    style: compressed
+  sass_dir:          _sass
+  style:            :compressed
 
-markdown: kramdown
-highlighter: rouge
-plugins: [jekyll-paginate]
-paginate: 5
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap  
 
-navigation:
-    - title: 最前页
-      url: /index.html
-    - title: 说明书
-      url: /about
-    - title: 想找我？
-      url: /contact
-
-social:
-    # github: brianmaierjr
-    # twitter: brianmaierjr
-    # facebook: brianmaierjr
-    email: g@grav.foo
-    # linkedin: brianmaierjr
-    # youtube: RickAstleyYT
-    # tumblr: i-am-a-fish
-
-google_analytics: "G-WLHCRCNQJT"
-
-# disqus:
-#     shortname: brian
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
