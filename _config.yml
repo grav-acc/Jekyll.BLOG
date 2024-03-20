@@ -1,17 +1,17 @@
-site: Sidey
-url: #yoururl
-title: Sidey
-description: Simple and minimalistic jekyll blogging theme.
+site: demosaic
+url: https://grav.foo
+title: 冒号D
+description: Gravity of Words, Or A Bunch of Bullshit.
 twitter:
   username: #yourusername
   card: summary
   creator: #yourusername
 author:
   twitter: #yourusername
-  name: #yourusername
+  name: 大脚怪
   avatar:
-  email: #youremail
-  url: #yoururl
+  email: g@grav.foo
+  url: https://grav.foo
 permalink: pretty
 
 baseurl: ""
