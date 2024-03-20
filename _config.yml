@@ -1,7 +1,7 @@
-site: 冒号D
-url: grav.foo
-title: 冒号D
-description: Gravity of Words, Or A Bunch of Bullshit.
+site: Sidey
+url: #yoururl
+title: Sidey
+description: Simple and minimalistic jekyll blogging theme.
 twitter:
   username: #yourusername
   card: summary
@@ -12,7 +12,7 @@ author:
   avatar:
   email: #youremail
   url: #yoururl
-permalink: /:title/
+permalink: pretty
 
 baseurl: ""
 
