@@ -1,9 +1,9 @@
 links:
 - title: Writing
   url: /
-- title: About
+- title: 联系
   url: /about
-- title: Search
+- title: 搜索
   url: /search
-- title: Rss
+- title: 订阅
   url: /atom.xml
