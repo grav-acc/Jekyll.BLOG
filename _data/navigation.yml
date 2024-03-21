@@ -3,6 +3,8 @@ links:
   url: /
 - title: 联系
   url: /about
+- title: 草稿
+  url: https://note.grav.foo
 - title: 搜索
   url: /search
 - title: 订阅
